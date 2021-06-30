@@ -81,4 +81,4 @@ client.on('messageReactionAdd',(reaction,user)=>{
         }
     }
 })
-client.login("ODU3NzA4ODYzNzAwMzM2NjQx.YNThoA.v4YjhQvDU5wfm3qvtrIz4Yn-vlQ");
+client.login(process.env.CLIENT_ACCESS_TOKEN);
